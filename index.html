@@ -4,19 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- PAGE-TITLE -->
   <title>JavaScript Event Calendar</title>
+  <!-- FAVICON ICON -->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+  <!-- CALENDAR STYLESHEET -->
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <div class="container">
-    <div class="header">
+    <header class="header">
       <button class="navigation" onclick="previousMonth()">&lt;</button>
       <h1 id="month"></h1>
       <button class="navigation" onclick="nextMonth()">&gt;</button>
-    </div>
+    </header>
 
+    <!-- CALENDAR -->
     <div id="calendar"></div>
   </div>
+
+  <!-- APP-SCRIPTS -->
   <script src="assets/js/calendar.js"></script>
 </body>
 </html>
